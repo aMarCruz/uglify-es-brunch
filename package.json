@@ -1,0 +1,27 @@
+{
+  "name": "uglify-es-brunch",
+  "version": "2.10.0",
+  "description": "Adds Uglify minifying support to brunch.",
+  "author": "aMarCruz",
+  "homepage": "https://github.com/aMarCruz/uglify-es-brunch",
+  "keywords": ["brunchplugin", "uglify", "uglify-es", "optimizer"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aMarCruz/uglify-es-brunch.git"
+  },
+  "scripts": {
+    "test": "eslint index.js && mocha"
+  },
+  "dependencies": {
+    "uglify-es": "~3.1.3"
+  },
+  "devDependencies": {
+    "chai": "~4.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-brunch": "^1",
+    "mocha": "~4.0.1"
+  },
+  "eslintConfig": {
+    "extends": "brunch"
+  }
+}
