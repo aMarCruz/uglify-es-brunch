@@ -10,13 +10,11 @@ The plugin will minify your javascript files (ES5, ES6 and higher).
 
 ## Usage
 
-Install the plugin via npm with `npm install --save-dev uglify-es-brunch`.
+Only manual install, add this to your package.json:
 
-Or, do manual install:
-
-* Add `"uglify-es-brunch": "x.y.z"` to `package.json` of your brunch app. Pick a plugin version that corresponds to your minor (y) brunch version.
-
-* If you want to use git version of plugin, add `"uglify-es-brunch": "git+ssh://git@github.com:aMarCruz/uglify-es-brunch.git"`.
+```
+"uglify-es-brunch": "aMarCruz/uglify-es-brunch"`
+```
 
 To specify UglifyES options, use `config.plugins.uglify` object, for example:
 
