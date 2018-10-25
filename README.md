@@ -50,7 +50,7 @@ module.exports = {
 
 The [MIT License](LICENCE) (MIT)
 
-Copyright (c) 2017 Alberto Martínez (https://github.com/aMarCruz)
+Copyright (c) 2017-2018 Alberto Martínez (https://github.com/aMarCruz)
 
 [npm-image]:      https://img.shields.io/npm/v/uglify-es-brunch.svg
 [npm-url]:        https://www.npmjs.com/package/uglify-es-brunch
